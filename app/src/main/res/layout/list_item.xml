@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llWordList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal"
+    android:background="@color/category_numbers"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:background="@color/tan_background"
+        />
+
+    <LinearLayout
+        android:id="@+id/llTextContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:id="@+id/textView_Miwok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="18dp"
+        android:paddingLeft="16dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="lutti" />
+
+        <TextView
+            android:id="@+id/textView_DefaultTranslation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="18dp"
+            android:paddingLeft="16dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:text="one" />
+    </LinearLayout>
+</LinearLayout>
